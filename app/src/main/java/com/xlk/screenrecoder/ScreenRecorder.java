@@ -39,7 +39,7 @@ import static android.media.MediaFormat.MIMETYPE_VIDEO_AVC;
  * @author Yrom
  */
 public class ScreenRecorder {
-    private static final String TAG = "ScreenRecorder";
+    private static final String TAG = "ScreenRecorderThread";
     private static final boolean VERBOSE = false;
     private static final int INVALID_INDEX = -1;
     static final String VIDEO_AVC = MIMETYPE_VIDEO_AVC; // H.264 Advanced Video Coding

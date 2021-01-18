@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private VirtualDisplay getOrCreateVirtualDisplay(MediaProjection mediaProjection, VideoEncodeConfig config) {
         if (mVirtualDisplay == null) {
-            mVirtualDisplay = mediaProjection.createVirtualDisplay("ScreenRecorder-display0",
+            mVirtualDisplay = mediaProjection.createVirtualDisplay("ScreenRecorderThread-display0",
                     config.width, config.height, 1 /*dpi*/,
                     DisplayManager.VIRTUAL_DISPLAY_FLAG_PUBLIC,
                     null /*surface*/, null, null);
